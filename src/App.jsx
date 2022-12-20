@@ -17,11 +17,14 @@ function App() {
         <article>
           <p>My name is {HERO.name}. I am {HERO.age} years old. I like {HERO.hobby}</p>
         </article>
+        <article>
+          <ul>
+            <li>Game</li>
+          </ul>
+        </article>
       </main>
       <footer>
-        <ul> Contacts
-          <li>Phonenumber: {HERO.phonenumber}</li>
-        </ul>
+        <span>Contacts should be here</span>
       </footer>
     </div>
   )

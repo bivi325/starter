@@ -6,4 +6,22 @@ function toSquare(x) {
 
 let x = 4;
 let y = toSquare(x);
-console.log(y);
+
+function printHello(msg) {
+    console.log(`Привіт ${msg}`);
+}
+
+function printHello2(msg) {
+    const resultMsg = `Привіт ${msg}`;
+    console.log(resultMsg);
+}
+
+function printHello3(msg) {
+    const resultMsg = "Привіт" + " " + msg;
+    console.log(resultMsg);
+}
+
+
+printHello("Денис");
+printHello2("Денис");
+printHello3("Марічка");
